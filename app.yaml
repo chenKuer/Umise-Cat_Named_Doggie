@@ -8,7 +8,8 @@
 # limitations under the License.
 
 runtime: nodejs
-api_version: 1
+env: flex
+api_version: staging
 threadsafe: yes
 
 # Handlers define how to route requests to your application.
