@@ -9,7 +9,7 @@
 
 runtime: nodejs
 env: flex
-api_version: staging
+api_version: 1
 threadsafe: yes
 
 # Handlers define how to route requests to your application.
