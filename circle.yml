@@ -56,7 +56,7 @@ deployment:
         # create AppEngine
         #gcloud app create --region=us-central
         # deploy to AppEngine
-        - gcloud -q app deploy app.yaml --promote --version=staging        
+        - gcloud -q app deploy app.yaml --promote --version=debug        
     useracceptancetesting:
         branch: master
         commands:
