@@ -49,6 +49,7 @@ test:
     # run local unit tests
     - python tests/test_main.py
 
+
 deployment:
     staging:
         branch: dev
@@ -56,7 +57,7 @@ deployment:
         # create AppEngine
         #gcloud app create --region=us-central
         # deploy to AppEngine
-        - gcloud -q app deploy app.yaml --promote --version=staging      
+        - gcloud -q app deploy app.yaml --promote --version=1      
     useracceptancetesting:
         branch: master
         commands:
