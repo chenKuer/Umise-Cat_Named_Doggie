@@ -13,7 +13,7 @@
     "unify": "node scripts/unify",
     "update-dependencies": "./scripts/update-dependencies.sh"
   },
-  "author": "DorothyHYY",
+  "author": "Google LLC",
   "contributors": [
     {
       "name": "Yingying Huang",
